@@ -1,0 +1,24 @@
+{
+  "name": "ORM_E-Commerce-Back-End_HuiPan",
+  "version": "1.0.0",
+  "description": "This is a mysql application backend for an e-commerce Website, built with MySQL2, Express, Sequelize and dotenv.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuiPan-Peter/ORM_E-Commerce-Back-End_HuiPan"
+  },
+  "keywords": [],
+  "author": "Hui Pan",
+  "license": "MIT",
+  "homepage": "https://github.com/HuiPan-Peter/ORM_E-Commerce-Back-End_HuiPan/blob/main/README.md",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
